@@ -1,0 +1,50 @@
+.header{
+    width: 100%;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 5rem;
+    box-sizing: border-box;
+    margin: 0;
+    scroll-behavior: smooth;
+    display: flex;
+   
+    padding: 2rem;
+    background-color: rgb(73, 73, 181);
+}
+.logo{
+    font-size: 40px;
+    font-weight: 800;
+    color: white;        
+}
+
+.header-list {
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 25px;
+    text-transform: capitalize;
+    display: flex;
+    text-align: center;
+    margin: 0 5rem;
+    cursor: pointer;
+  
+}
+.header p,
+.header-list p
+{
+margin: 0 1rem;
+}
+@media screen and (max-width: 500px){
+    .logo
+    {
+        
+        font-size: 25px;
+        
+    }
+    .header{
+        height: 90px;
+        display: flex;
+    }
+    .header-list p{
+        font-size: 20px;
+    }
+}
