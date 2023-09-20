@@ -11,15 +11,30 @@ function DropdownButton() {
 
   return (
     <div className="dropdown1">
-      <button className="dropdown-button1" onClick={toggleDropdown}>
+      <div type='text' className="dropdown-button1" onClick={toggleDropdown}>
         All category
-      </button>
+      </div>
       {isDropdownOpen && (
         <ul className="dropdown-list1">
           <input type="search" name="" id="" />
-          <li>Item 1</li>
-          <li>Item 2</li>
-          <li>Item 3</li>
+          <li className='li1'>All category</li>
+          <li className='li1'>Barber Shops</li>
+          <li className='li1'>Beauty</li>
+          <li className='li1'>Bike Trail</li>
+          <li className='li1'>Church</li>
+          <li className='li1'>First Responders</li>
+          <li className='li1'>Fishing</li>
+          <li className='li1'>Fitness</li>
+          <li className='li1'>Food</li>
+          <li className='li1'>Gym</li>
+          <li className='li1'>Home Services</li>
+          <li className='li1'>Roofing</li>
+          <li className='li1'>Mental Health</li>
+          <li className='li1'>Nature Trails</li>
+          <li className='li1'>Overnight Stay</li>
+          <li className='li1'>Parks</li>
+          <li className='li1'>Photography</li>
+          <li className='li1'>Pizza</li>
         </ul>
       )}
     </div>

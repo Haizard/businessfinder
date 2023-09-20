@@ -34,7 +34,7 @@ function Navbar() {
 
               <p className='dropdown-button'><a href='#explore'>explore</a></p>
 
-              <div class="dropdown-menu">       
+              <div className ="dropdown-menu">       
                 <a href="#navbar">restaurant</a>
                 <a href="#navbar">art & entertaiment</a>
                 <a href="#navbar">nature trail</a>
