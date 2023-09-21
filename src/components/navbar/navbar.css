@@ -1,5 +1,6 @@
 *{
     font-family: "Karla","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
 }
 .header{
     width: 100%;
@@ -30,7 +31,6 @@
     margin: 0 5rem;
     cursor: pointer;
 
-    font-size: 100%;
     padding: 18px 0;
     
   
