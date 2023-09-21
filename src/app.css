@@ -1,15 +1,11 @@
 *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
+    font-size: 22px;
+    font-family: Karla, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 }
 
 .body{
-background-color: white;
-color: green;
-font-size: 14px;
-font-family: "Karla","Helvetica Neue",Helvetica,Arial,sans-serif;
+
 background-color: rgb(255, 255, 255);
 border-bottom-color: rgb(113, 122, 143);
 border-bottom-style: none;
@@ -49,7 +45,6 @@ padding-bottom: 0px;
 padding-left: 0px;
 padding-right: 0px;
 padding-top: 111px;
-vertical-align: baseline;
 }
 
  a {

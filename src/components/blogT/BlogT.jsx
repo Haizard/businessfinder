@@ -15,8 +15,15 @@ function BlogT() {
 
     <div className="bussiness-blog">
 
-     <Articles imgurl={blog1}/>
-
+     <Articles imgurl={blog1} business_name='IHOP Restaurants and Dining in Marietta, Georgia' city='Marietta Georgia' phone_number='(770) 590-0425' rate_icon='' business_logo='' />
+     <Articles imgurl={blog2}/>
+     <Articles imgurl={blog3}/>
+     <Articles imgurl={blog4}/>
+     <Articles imgurl={blog5}/>
+     <Articles imgurl={blog6}/>
+     <Articles imgurl={blog7}/>
+     <Articles imgurl={blog8}/>
+     <Articles imgurl={blog9}/>
     </div>
 
     </div>
