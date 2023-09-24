@@ -4,6 +4,7 @@ import { blog1, blog2, blog3, blog4, blog5, blog6, blog7, blog8, blog9 } from '.
 import './blog.css'
 
 
+
 function BlogT() {
   return (
     <>
@@ -15,15 +16,15 @@ function BlogT() {
 
     <div className="bussiness-blog">
 
-     <Articles imgurl={blog1} business_name='IHOP Restaurants and Dining in Marietta, Georgia' city='Marietta Georgia' phone_number='(770) 590-0425' rate_icon='' business_logo='' />
-     <Articles imgurl={blog2}/>
-     <Articles imgurl={blog3}/>
-     <Articles imgurl={blog4}/>
-     <Articles imgurl={blog5}/>
-     <Articles imgurl={blog6}/>
-     <Articles imgurl={blog7}/>
-     <Articles imgurl={blog8}/>
-     <Articles imgurl={blog9}/>
+    <div className=""><Articles imgurl={blog1} business_name='IHOP Restaurants and Dining in Marietta, Georgia' city='Marietta Georgia' phone_number='(770) 590-0425' rate_icon='' business_logo=''  /></div>
+    <div className=""><Articles imgurl={blog2}/></div> 
+     <div className=""><Articles imgurl={blog3}/></div>
+     <div className=""><Articles imgurl={blog4}/></div>
+    <div className=""><Articles imgurl={blog5}/></div> 
+    <div className=""><Articles imgurl={blog6}/></div> 
+     <div className=""><Articles imgurl={blog7}/></div>
+    <div className=""><Articles imgurl={blog8}/></div> 
+     <div className=""><Articles imgurl={blog9}/></div>
     </div>
 
     </div>

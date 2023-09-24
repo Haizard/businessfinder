@@ -12,7 +12,7 @@ function DropdownButton() {
   return (
     <div className="dropdown1">
       <div type='text' className="dropdown-button1" onClick={toggleDropdown}>
-        All category
+       <span className='span1'> All category</span>
       </div>
       {isDropdownOpen && (
         <ul className="dropdown-list1">
@@ -54,9 +54,8 @@ function Navbar() {
       <div className="inputsection">
         <input type="text" className="input" placeholder="what are you looking for?" />
 
-        <div className="location">
-          <p className="inpt">dar es salaam</p>
-        </div>
+        <input type='location' className="input" placeholder='Location'>
+        </input>
 
         <DropdownButton /> {/* Include the DropdownButton component here */}
         

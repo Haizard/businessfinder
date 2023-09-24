@@ -13,3 +13,11 @@
     font-weight: 10;
     font-size: 42px;
 }
+
+.bussiness-blog{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 37px 20px;
+    padding: 0px 410px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
