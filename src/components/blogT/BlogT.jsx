@@ -1,15 +1,16 @@
 import React from 'react';
 import Articles from '../reusable1/article/Article'; // Correct relative path
-import { blog1, blog2, blog3, blog4, blog5, blog6, blog7, blog8, blog9 } from '../blog_content/BlogContnet';
 import ContentList from '../blog_content/BlogContnet';
 import './blog.css'
 
 
 
 function BlogT() {
- const bloglist = ContentList.map ((blog, index) => (
-  <div className=""><Articles imgurl={blog.img}  business_name={blog.businessname} city={blog.city} phone_number={blog.PhoneNumber}/></div>
-  ));
+ const bloglist = ContentList.map ((blog, index) => {
+  console.log(blog.logo);
+  console.log("blogs img", blog.img)
+  return <div className=""><Articles imgurl={blog.img}  business_name={blog.businessname} city={blog.city} phone_number={blog.PhoneNumber} business_logo={blog.logo}/></div>
+ } );
 
   return (
     <>

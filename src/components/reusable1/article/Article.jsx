@@ -25,7 +25,8 @@ function Articles({ imgurl, business_name, city, phone_number, rate_icon, busine
         <div className='rate_icon'>
           {stars}
         </div>
-        <span className='business_logo'>{business_logo}</span>
+        <img className='business_logo' src={business_logo} alt="blogimage" />
+
       </div>
     </div>
   );
