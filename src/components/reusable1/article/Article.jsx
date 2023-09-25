@@ -1,7 +1,7 @@
 import React from 'react';
 import './article.css';
 import { AiFillStar } from "@react-icons/all-files/ai/AiFillStar";
-
+import {AiFillHeart} from "@react-icons/all-files/ai/AiFillHeart"
 
 function Articles({ imgurl, business_name, city, phone_number, rate_icon, business_logo }) {
   const stars = Array(5).fill(null).map((_, index) => (
@@ -14,7 +14,7 @@ function Articles({ imgurl, business_name, city, phone_number, rate_icon, busine
         <img className='image_style' src={imgurl} alt="blogimage" />
         <div className="content">
           <div className="like_container">
-            <span className="like_icon">{rate_icon}0</span>
+            <span className="like_icon"><AiFillHeart className='heart-icon'  />0</span>
           </div>
           <span className='businessname'>{business_name}</span>
           <span className='city'>{city}</span>
