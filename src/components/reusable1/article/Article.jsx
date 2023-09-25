@@ -2,6 +2,7 @@ import React from 'react';
 import './article.css';
 import { AiFillStar } from "@react-icons/all-files/ai/AiFillStar";
 import {AiFillHeart} from "@react-icons/all-files/ai/AiFillHeart"
+import {AiFillCheckCircle} from "@react-icons/all-files/ai/AiFillCheckCircle"
 
 function Articles({ imgurl, business_name, city, phone_number, rate_icon, business_logo }) {
   const stars = Array(5).fill(null).map((_, index) => (
@@ -25,7 +26,9 @@ function Articles({ imgurl, business_name, city, phone_number, rate_icon, busine
         <div className='rate_icon'>
           {stars}
         </div>
+        <span className='check-icon-wrapper'><AiFillCheckCircle className='check-icon'  /></span>
         <img className='business_logo' src={business_logo} alt="blogimage" />
+
 
       </div>
     </div>
