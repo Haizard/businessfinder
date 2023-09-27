@@ -7,5 +7,4 @@ export {default as MoneyList } from './money-list/MoneyList';
 export {default as BlogT } from './blogT/BlogT';
 export {default as BusinessOption} from './Start-Business-Option/BusinessOption.jsx'
 export {default as ListCompany} from './list_your_company/ListCompany.jsx'
-
-
+export {default as BusinessShowOf} from './show_off_business_section/BusinessShowOf.jsx'
