@@ -1,0 +1,43 @@
+
+.blog_section{
+    width: 100%;
+   
+}
+
+
+
+.date_box{
+    font-size: inherit;
+}
+
+.title_box{
+    font-size: 2.2em;
+    font-weight: 500;
+}
+
+/* .content_box{
+} */
+
+.Read_more{
+font-size: inherit;
+}
+
+.content_container{
+    box-shadow: 5px 1px 24px hsl(0deg 5% 15% / 26%);
+    color: #717a8f;
+    font-size: 17px;
+    letter-spacing: 4px;
+}
+
+.chevron_right{
+    font-size: 27px;
+}
+
+.readmore_link{
+    display: flex;
+    padding: 24px 0;
+}
+
+.content_box{
+    line-height: 1.5;
+}

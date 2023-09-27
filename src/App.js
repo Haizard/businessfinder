@@ -1,6 +1,6 @@
 import React from 'react'
 import './app.css'
-import { BlogT, BussFinder, Gallery, Hotel, MoneyList, Header, Navbar } from './components';
+import { BlogT, StartBusiness, Gallery, Hotel, MoneyList, Header, Navbar, BusinessOption } from './components';
 const App = () => {
   return (
     <div>
@@ -8,7 +8,8 @@ const App = () => {
       <Navbar />
       <Header />
       <BlogT />
-      <BussFinder />
+      <BusinessOption/>
+      <StartBusiness />
       <Gallery />
       <Hotel />
       <MoneyList />

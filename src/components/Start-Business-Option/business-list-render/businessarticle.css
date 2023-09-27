@@ -1,0 +1,43 @@
+.business_list_section{
+    text-align: center;
+    width: 66%;
+    height: 82px;
+    position: relative;
+    padding: 12px 414px;
+}
+
+
+.business_list{
+    background-color:  rgb(55, 213, 242);
+    height: 89%;
+    margin-top: -69px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.business_content_list{
+    text-align: center;
+    color: #000;
+    font-size: 21px;
+    position: relative;
+    top: 24px;
+    font-weight: 550;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.content_container{
+    padding: 30px 51px;
+}
+
+.img_box1{
+    height: 396px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.blog_section{
+    box-shadow: #000;
+}

@@ -13,6 +13,9 @@
     font-weight: 10;
     font-size: 42px;
 }
+.stretched_word{
+    letter-spacing: 18px;
+}
 
 .bussiness-blog{
     display: grid;

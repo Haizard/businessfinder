@@ -44,7 +44,7 @@ function DropdownButton() {
 function Navbar() {
   return (
     <div className="navbar">
-      <p className="text">
+      <p className="text stretched_word">
         List, Find, or Review Business in <br /> Marietta Georgia
       </p>
       <p className="text1">

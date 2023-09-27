@@ -1,0 +1,44 @@
+.main_bussiness_blog{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 37px 20px;
+    padding: 0px 410px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 60px;
+}
+
+.business_header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.start_business{
+    font-family: Karla, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(113, 122, 143);
+    padding: 94px 0 0px 0;
+    font-size: 49px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.all_about{
+    display: block;
+    font-family: Karla, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    color: rgb(113, 122, 143);
+    padding-bottom: 32px;
+    text-align: center;
+    margin-top: 13px;
+}
+
+.latest_article{
+    font-size: 21px;
+    color: rgb(113, 122, 143);
+    font-weight: 400;
+    font-size:  "Karla","Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding-bottom: 48px;
+}
