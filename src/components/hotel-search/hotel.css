@@ -1,0 +1,75 @@
+.hotel_search_section{
+    margin-top: 150px;
+    text-align: center;
+    justify-content: center;
+}
+
+.hotel_search_section_title{
+    color: rgb(113, 122, 143);
+    font-size: 34px;
+}
+
+.searching_container{
+    display: flex;
+    flex-direction: column;
+    width: 19%;
+    margin-left: 982px;
+    margin-top: 44px;
+    padding: 0px 28px 37px 28px;
+    border: 3px solid rgb(113 122 143 / 21%);
+}
+
+.searching_container_title{
+    color: #000;
+    font-weight: 600;
+    text-align: left;
+    padding: 23px 0;
+    font-size: 28px;
+    word-spacing: -1px;
+}
+
+.going_to_button{
+    text-align: left;
+    background-color: white;
+    color: rgb(113, 122, 143);
+    padding: 18px 56px;
+}
+
+.check_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 12px 0;
+}
+
+.check_in,
+ .check_out{
+    color: rgb(113, 122, 143);
+    padding: 14px 70px;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.bland_search_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.hotel_bland{
+    color: rgb(113, 122, 143);
+}
+
+.hotle_text_color{
+    color: #000;
+}
+
+#search_box{
+    background-color: blue;
+    padding: 18px 0px;
+    border-radius: 51px;
+    width: 47%;
+    color: white;
+    font-size: 23px;
+}

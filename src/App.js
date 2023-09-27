@@ -12,8 +12,8 @@ const App = () => {
       <StartBusiness />
       <ListCompany />
       <BusinessShowOf />
-      <Gallery />
       <Hotel />
+      <Gallery />
       <MoneyList />
       </div>
       
