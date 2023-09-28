@@ -1,22 +1,25 @@
 .business_show_off_section{
     width: 100%;
     background-image: url(/public/modern\ City.jfif);
-    height: 292px;
-    padding: 130px 0 20px;
+    height: 76vh;
     background-size: cover;
     background-position: center;
     text-align: center;
     color: #fff;
     margin-top: 205px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .business_show_off_title{   
-    font-size: 37px;
+    font-size: 61px;
     word-spacing: 10px;
     font-weight: 550;
 }
 
 .business_show_off_content{
-    padding: 0 857px;
-    line-height: 35px;
+    line-height: 2;
+    max-width: 60%;
 }
