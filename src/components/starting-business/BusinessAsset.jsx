@@ -60,32 +60,7 @@ export const  businessAsset = [
         title: "Marietta goergia",
         content: "Close your eyes and transport yourself to an era when the United States.",
         readmore: "Read More"
-    }
-    
-    // {
-    //     img: blog1,
-    //     date: "August 7,2023 Marietta Goergia",
-    //     title: "Marietta goergia",
-    //     content: "Close your eyes and transport yourself to an era when the United States.",
-    //     readmore: "Read More"
-    // },
-    
-    // {
-    //     img: blog4,
-    //     date: "August 7,2023 Marietta Goergia",
-    //     title: "Marietta goergia",
-    //     content: "Close your eyes and transport yourself to an era when the United States.",
-    //     readmore: "Read More"
-    // },
-    
-    // {
-    //     img: blog8,
-    //     date: "August 7,2023 Marietta Goergia",
-    //     title: "Marietta goergia",
-    //     content: "Close your eyes and transport yourself to an era when the United States.",
-    //     readmore: "Read More"
-    // }
-        
+    }    
     ]
     
     
