@@ -1,6 +1,6 @@
 import React from 'react'
 import './app.css'
-import { BlogT, StartBusiness, Gallery, Hotel, MoneyList, Header, Navbar, BusinessOption, ListCompany, BusinessShowOf } from './components';
+import { BlogT, StartBusiness, Gallery, Hotel, MoneyList, Header, Navbar, BusinessOption, ListCompany, BusinessShowOf, Footer } from './components';
 const App = () => {
   return (
     <div>
@@ -13,9 +13,10 @@ const App = () => {
       <ListCompany />
       <BusinessShowOf />
       <Hotel />
-      <BusinessOption/>
       <Gallery />
+      <BusinessOption/>
       <MoneyList />
+      <Footer/>
       </div>
       
     </div>
