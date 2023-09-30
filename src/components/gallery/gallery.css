@@ -1,0 +1,57 @@
+.gallary_title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery_title1{
+    font-family: Karla, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(113, 122, 143);
+    padding: 112px 0 12px 0;
+    font-size: 49px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.gallery_content{
+    font-family: Karla, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(113, 122, 143);
+    padding: 0px 0 112px 0;
+    font-size: 26px;
+    font-weight: 400;
+    text-align: center; 
+}
+
+
+.gallery_pic_section{
+   
+}
+
+.gallery_container1{
+    display: flex;
+    position: absolute;
+    align-items: center;
+}
+
+.content_box2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    z-index: 6;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: 800;
+    width: 100%;
+    height: 100%;
+    padding: 0 30px;
+    background-color: hsl(0deg 0% 0% / 50%);
+    cursor: pointer;
+    box-sizing: border-box;
+
+}
+
+.img_pic{
+    
+}
