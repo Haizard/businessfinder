@@ -1,6 +1,6 @@
 import React from 'react'
 import './gallery.css'
-import { blog1, blog2, blog3, blog4, blog5, blog6, blog7, blog8, blog9 } from '../blogT/imports'
+import { blog1, blog2, blog3, blog5, blog6, blog9 } from '../blogT/imports'
 function Gallery() {
   return (
     <div>
