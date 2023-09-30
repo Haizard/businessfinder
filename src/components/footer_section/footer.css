@@ -1,0 +1,47 @@
+.footer_main_section{
+    height: 100%;
+    width: 100%;
+    margin-top: 79px;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    color: rgb(113, 122, 143);
+}
+
+.website_short_inf{
+    display: flex;
+    flex-direction: row;
+    gap: 347px;
+    padding: 107px 431px;
+    color: rgb(113, 122, 143);
+
+}
+
+.resources{
+    display: flex;
+    flex-direction: column;
+}
+
+.blog_shortcut{
+display: flex;
+flex-direction: column;
+}
+
+.about_web_title,
+.blog_shortcut_title,
+.resource_title{
+   color: rgb(113, 122, 143);
+   font-size: 37px;
+   font-weight: 500;
+   padding-bottom: 30px;
+}
+
+.footer_text
+{
+    padding-bottom: 26px;
+}
+
+.description{
+    background-color: blueviolet;
+    padding: 17px 431px;
+}
