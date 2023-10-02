@@ -1,28 +1,30 @@
 .business_list_section{
     text-align: center;
-    width: 66%;
-    height: 82px;
+    width: 100%;
+    height: 51px;
+    display: flex;
     position: relative;
-    padding: 12px 202px;
+    align-items: center;
+    justify-content: center;
 }
 
 
 .business_list{
-    background-color:  rgb(55, 213, 242);
-    height: 89%;
-    margin-top: -69px;
+    background-color: rgb(55, 213, 242);
+    padding: 10px 418px;
+    margin-top: -164px;
     text-transform: uppercase;
     cursor: pointer;
     border-radius: 7px;
+    width: 11%;
 }
 
 .business_content_list{
     text-align: center;
     color: #000;
-    font-size: 21px;
+    font-size: 11px;
     position: relative;
-    top: 24px;
-    font-weight: 550;
+    font-weight: 750;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
