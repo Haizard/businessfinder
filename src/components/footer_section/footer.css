@@ -2,7 +2,7 @@
     height: 100%;
     width: 100%;
     margin-top: 79px;
-    background-color: #2A78C7;
+    background-color: #2854a1;
     display: flex;
     flex-direction: column;
     color: rgb(167, 169, 173);
@@ -11,8 +11,8 @@
 .website_short_inf{
     display: flex;
     flex-direction: row;
-    gap: 347px;
-    padding: 107px 431px;
+    gap: 245px;
+    padding: 107px 28px;
     color: rgb(178, 179, 183);
 
 }
@@ -42,6 +42,6 @@ flex-direction: column;
 }
 
 .description{
-    background-color: rgb(0, 93, 234);
+    background-color: #22498e;
     padding: 17px 431px;
 }

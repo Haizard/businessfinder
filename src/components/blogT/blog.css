@@ -5,13 +5,21 @@
     color: rgb(145, 144, 144);
 }
 
-.text1{
-    font-size: 22px;
+.blog_text1{
+    font-size: 14px;
+    text-align: center;
+    font-family: Karla, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(113, 122, 143);
+    padding-bottom: 21px;
 }
 
-.text{
-    font-weight: 10;
-    font-size: 42px;
+.blog_text{
+    font-family: Karla, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(113, 122, 143);
+    padding: 112px 0 0px 0;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
 }
 .stretched_word{
     letter-spacing: 18px;
@@ -21,6 +29,6 @@
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 37px 20px;
-    padding: 0px 410px;
+    padding: 0px 128px;
     grid-template-columns: 1fr 1fr 1fr;
 }

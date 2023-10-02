@@ -15,8 +15,8 @@ function BlogT() {
     <>
     <div className="blog">
     <div className="title">
-    <p className='text '>Discover Business in and Around Marietta Goergia</p>
-    <p className='text1'>Discover some of the most popular listings in Maritta based on user reviews and ratings.</p>
+    <p className='blog_text '>Discover Business in and Around Marietta Goergia</p>
+    <p className='blog_text1'>Discover some of the most popular listings in Maritta based on user reviews and ratings.</p>
     </div>
 
     <div className="bussiness-blog">
